@@ -1,0 +1,4 @@
+slideymojo
+==========
+
+Responsive jQuery Carousel 
