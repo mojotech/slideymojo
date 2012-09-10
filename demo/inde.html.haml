@@ -1,0 +1,43 @@
+%html
+	%head
+		%script{:src=>'jquery.js', :type=>'text/javascript'}
+		%script{:src=>'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js', :type=>'text/javascript'}
+		%script{:src=>'jquery.ui.touch-punch.min.js'}
+		%script{:src=>'jquery.slideyMojo.js', :type=>'text/javascript'}
+		%link{:rel=>'stylesheet', :type=>'text/css', :href=>'ui-lightness/jquery-ui-1.8.22.custom.css'}
+		%link{:href=>'stylesheets/screen.css', :rel=>'stylesheet', :type=>'text/css' }
+		%script
+			$(document).ready(function(){$('.sm').slideyMojo(1)});
+	%body
+		%div.sm
+			%div.sm-progress-wrapper
+				%div.sm-progress.sm-progress
+				%div.clear
+			%div.sm-controls
+				%a.sm-slider-control.sm-prev <
+				%a.sm-slider-control.sm-next > 
+			%div.sm-options
+				%ul.sm-list
+					%li
+						%h4 Why slideyMojo?
+						%p Because you realize the importance of clean, responsive, reusable code.
+					%li
+						%h4 Why not other sliders?
+						%p Simply put, there is not another slider out there with the same cleanliness and attention to the needs of today's responsive designs.
+					%li
+						%h4 How do I get started?
+						%p Just download and include both jQuery and jQuery UI, then get yourself a copy of slideyMojo and include that too.
+					%li
+						%h4 Magic one liner
+						%p $('#sliderElement').slideyMojo('2');
+					%li
+						%h4 Need more Mojo?
+						%p
+							Check out slideyMojo available on the
+							%a{:href=>'http://mojotech.github.com/slideyMojo'} MojoTech Github
+					%li
+						%h4 Need more Mojo?
+						%p
+							Check out slideyMojo available on the
+							%a{:href=>'http://mojotech.github.com/slideyMojo'} MojoTech Github
+

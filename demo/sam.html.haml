@@ -1,0 +1,11 @@
+%html
+	%head
+		%script{:src=>'jquery.js', :type=>'text/javascript'}
+		%script{:src=>'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js', :type=>'text/javascript'}
+		%script{:src=>'../jquery.slideyMojo.js', :type=>'text/javascript'}
+		%link{:rel=>'stylesheet', :type=>'text/css', :href=>'ui-lightness/jquery-ui-1.8.22.custom.css'}
+		%link{:href=>'stylesheets/screen.css', :rel=>'stylesheet', :type=>'text/css' }
+		%script
+			$(document).ready(function(){$('#slider').slider('3');});
+	%body
+		%div#slider
